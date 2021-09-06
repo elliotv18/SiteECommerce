@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New BoutiqueECommerce{% endblock %}
+
+{% block body %}
+    <h1>Create new BoutiqueECommerce</h1>
+
+    {{ include('admin_boutique_e_commerce/_form.html.twig') }}
+
+    <a href="{{ path('admin_boutique_e_commerce_index') }}">back to list</a>
+{% endblock %}
