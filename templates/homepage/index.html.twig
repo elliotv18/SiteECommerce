@@ -2,51 +2,9 @@
 
 {% block body %}
 
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <h1> Bienvenue <h1>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Page d'accueil </a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/admin/blog/message/">Administration</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Catégories
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Exemple</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Liste produits</a>
-      </li>
-      {% if app.user %}
-      <li class="nav-item">
-        <a class="nav-link" href="#">Mon compte</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/logout">Se déconnecter</a>
-      </li>
-      
-      {% else %}
-      
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/login">Se connecter</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/register">S'inscrire</a>
-      </li>
-      {% endif %}
-    </ul>
-   
-  </div>
-</nav>
-<h1>HGSDHZGDFYTHF</h1>
+
  {% endblock %}
 
 
